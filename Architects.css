@@ -1,0 +1,169 @@
+body{
+	font-size:20px;
+}
+div.header{
+	font-size:25px;
+	color:black;
+	background-image:url("Build.png");
+	background-size:cover;
+	padding-top:15px;
+	padding-left:15px;
+}
+font.tit{
+	color:rgb(13,17,96);
+	padding:4px;
+	border:2px solid rgb(13,17,96);
+	border-radius:3px;
+}
+font.tit:hover{
+	background-color:;
+	background-size:cover;
+	transition:0.5s ease;
+}
+div.header a{
+	float:right;
+	display:inline-block;
+	text-decoration:none;
+	margin-right:20px;
+	color:rgb(13,17,96);
+	padding:4px;
+	transition:0.5s ease;
+	border-left:1.8px solid rgb(13,17,96);
+	border-top:1.8px solid rgb(13,17,96);
+	border-bottom:1px solid rgb(13,17,96);
+}
+div.box{
+	margin-top:30px;
+	width:100vw;
+	height:20vw;
+	color:white;
+	text-align:center;
+	padding-top:300px;
+	padding-left:100px;
+	
+}
+font.titl{
+	font-size:35px;
+}
+font.titl b{
+	background-color:black;
+	padding:8px 10px;
+}
+main{
+	margin:10px 25px;
+}
+div.head::first-letter{
+	font-size:30px;
+}
+font.mtext{
+	color:rgb(90,90,90);
+	transition:0.3s ease-in;
+}
+font.mtext:hover{
+    color:rgb(20,20,20);	
+}
+main div.home{
+	display:block;
+}
+main div.ome{
+	margin-bottom:20px;
+}
+main span.hname{
+	background-color:black;
+	color:white;
+	padding:9px 11px;
+	transition:0.4s ease-out;
+}
+main span.hname:hover{
+	background-color:rgb(110,110,110);
+	color:black;
+}
+main div.fi{
+	background-image:url("bh.png");
+	background-size:cover;
+	width:1450px;
+	height:600px;
+	padding-top:8px;
+}
+main div.se{
+	background-image:url("brick.PNG");
+	background-size:cover;
+	width:1450px;
+	height:600px;
+	padding-top:8px;
+}
+main div.th{
+	background-image:url("renovated.PNG");
+	background-size:cover;
+	width:1450px;
+	height:600px;
+	padding-top:8px;
+}
+main div.fo{
+	background-image:url("barn.PNG");
+	background-size:cover;
+	width:1450px;
+	height:600px;
+	padding-top:8px;
+}
+main img.imgd{
+	margin-bottom:15px;
+	width:1450px;
+	height:600px;
+}
+span.pn{
+    font-size:30px;
+}
+dl > dt{
+   font-size:22px;
+   color:rgb(80,80,80);
+   transition:0.2s ease;
+}
+dl dt:hover{
+   color:rgb(20,20,20);
+}
+dd{
+	margin-top:10px;
+	color:rgb(130,130,130);
+	transition:0.5s ease;
+}
+dd:hover{
+	color:rgb(90,90,90);
+}
+button.co{
+	text-align:center;
+	color:white;
+	background-color:black;
+	width:1450px;
+    padding:13px 0px;
+	margin-top:15px;
+	margin-bottom:20px;
+	font-size:16px;
+	transition:.6s ease-in;
+	border-style:none;
+	font-weight:lighter;
+}
+button.co:hover{
+	color:black;
+	background-color:rgb(220,220,220);
+}
+footer{
+	margin:10px 25px;
+}
+input[type="text"]{
+	width:1450px;
+	padding:8px 0px;
+}
+input[type="submit"]{
+	width:220px;
+	color:white;
+	background-color:black;
+	border-style:none;
+	padding:13px 0px;
+	transition:.5s ease;
+	
+}
+input[type="submit"]:hover{
+	background-color:rgb(150,150,150);
+	color:black;
+}
