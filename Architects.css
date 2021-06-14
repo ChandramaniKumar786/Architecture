@@ -1,169 +1,370 @@
-body{
-	font-size:20px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-div.header{
-	font-size:25px;
-	color:black;
-	background-image:url("https://cdn.pixabay.com/photo/2017/06/30/12/10/shipyard-2458150_960_720.jpg");
-	background-size:cover;
-	padding-top:15px;
-	padding-left:15px;
+html {
+  font-size: 16px;
 }
-font.tit{
-	color:rgb(13,17,96);
-	padding:4px;
-	border:2px solid rgb(13,17,96);
-	border-radius:3px;
+div.header {
+  /* content: " "; */
+  display: block;
+  width: 100%;
+  height: 40vh;
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/30/12/10/shipyard-2458150_960_720.jpg");
+  background-size: cover;
+  position: relative;
 }
-font.tit:hover{
-	background-color:;
-	background-size:cover;
-	transition:0.5s ease;
+
+div.header a {
+  float: right;
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+  padding: 0.25rem;
+  margin-top: 0.5rem;
+  transition: 0.5s ease;
+  border-left: 1.8px solid rgb(13, 17, 96);
+  border-top: 1.8px solid rgb(13, 17, 96);
+  border-bottom: 1px solid rgb(13, 17, 96);
 }
-div.header a{
-	float:right;
-	display:inline-block;
-	text-decoration:none;
-	margin-right:20px;
-	color:rgb(13,17,96);
-	padding:4px;
-	transition:0.5s ease;
-	border-left:1.8px solid rgb(13,17,96);
-	border-top:1.8px solid rgb(13,17,96);
-	border-bottom:1px solid rgb(13,17,96);
+div.header a:hover {
+  background-color: white;
+  color: black;
 }
-div.box{
-	margin-top:30px;
-	width:100vw;
-	height:20vw;
-	color:white;
-	text-align:center;
-	padding-top:300px;
-	padding-left:100px;
-	
+div.box {
+  color: black;
+  text-align: center;
+  font-size: 1.35rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 60%;
+  top: 50%;
 }
-font.titl{
-	font-size:35px;
+.box b {
+  background-color: black;
+  padding: 8px 10px;
+  color: white;
+  box-shadow: 3px 0px 5px 2px rgba(rgb(0, 0, 0), 1);
 }
-font.titl b{
-	background-color:black;
-	padding:8px 10px;
+
+/* main  started */
+div.head::first-letter {
+  font-size: 1.7rem;
 }
-main{
-	margin:10px 25px;
+
+div.home {
+  display: block;
 }
-div.head::first-letter{
-	font-size:30px;
+div.ome {
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 300px;
+  position: relative;
 }
-font.mtext{
-	color:rgb(90,90,90);
-	transition:0.3s ease-in;
+span.hname {
+  background-color: black;
+  color: white;
+  padding: 0.2rem 0.4rem;
+  transition: 0.4s ease-out;
+  font-size: 1rem;
+  transform: translate(-0%, -0%);
+  left: 0;
+  top: 0;
+  position: absolute;
 }
-font.mtext:hover{
-    color:rgb(20,20,20);	
+span.hname:hover {
+  background-color: white;
+  color: black;
 }
-main div.home{
-	display:block;
+div.fi {
+  background-image: url("https://cdn.pixabay.com/photo/2016/07/12/13/37/crane-homes-1512044__340.jpg");
+  background-size: cover;
 }
-main div.ome{
-	margin-bottom:20px;
+div.se {
+  background-image: url("https://cdn.pixabay.com/photo/2017/07/31/21/34/living-wall-2561274__340.jpg");
+  background-size: cover;
 }
-main span.hname{
-	background-color:black;
-	color:white;
-	padding:9px 11px;
-	transition:0.4s ease-out;
+div.th {
+  background-image: url("https://cdn.pixabay.com/photo/2014/08/11/21/27/houses-416031__340.jpg");
+  background-size: cover;
 }
-main span.hname:hover{
-	background-color:rgb(110,110,110);
-	color:black;
+div.fo {
+  background-image: url("https://cdn.pixabay.com/photo/2018/03/03/19/29/skyscraper-3196390__340.jpg");
+  background-size: cover;
 }
-main div.fi{
-	background-image:url("https://cdn.pixabay.com/photo/2016/07/12/13/37/crane-homes-1512044__340.jpg");
-	background-size:cover;
-	width:1450px;
-	height:600px;
-	padding-top:8px;
+.about {
+  color: rgb(90, 90, 90);
+  text-align: justify;
 }
-main div.se{
-	background-image:url("https://cdn.pixabay.com/photo/2017/07/31/21/34/living-wall-2561274__340.jpg");
-	background-size:cover;
-	width:1450px;
-	height:600px;
-	padding-top:8px;
+.txt {
+  padding: 0.3rem 0.6rem;
 }
-main div.th{
-	background-image:url("https://cdn.pixabay.com/photo/2014/08/11/21/27/houses-416031__340.jpg");
-	background-size:cover;
-	width:1450px;
-	height:600px;
-	padding-top:8px;
+
+/* after about content */
+.teams {
+  display: relative;
 }
-main div.fo{
-	background-image:url("https://cdn.pixabay.com/photo/2018/03/03/19/29/skyscraper-3196390__340.jpg");
-	background-size:cover;
-	width:1450px;
-	height:600px;
-	padding-top:8px;
+img.imgd {
+  margin-bottom: 15px;
 }
-main img.imgd{
-	margin-bottom:15px;
-	width:1450px;
-	height:600px;
+span.pn {
+  font-size: 2rem;
+  display: block;
 }
-span.pn{
-    font-size:30px;
+dl > dt {
+  font-size: 1rem;
+  color: rgb(80, 80, 80);
+  transition: 0.2s ease;
 }
-dl > dt{
-   font-size:22px;
-   color:rgb(80,80,80);
-   transition:0.2s ease;
+
+dd {
+  margin-top: 10px;
+  color: rgb(130, 130, 130);
 }
-dl dt:hover{
-   color:rgb(20,20,20);
+
+button.co {
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 100%;
+  padding: 13px 0px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  transition: 0.3s ease-in;
+  border-style: none;
 }
-dd{
-	margin-top:10px;
-	color:rgb(130,130,130);
-	transition:0.5s ease;
+button.co:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
 }
-dd:hover{
-	color:rgb(90,90,90);
+
+/* after teams */
+
+.form {
+  margin: 0.5rem 1.25rem;
 }
-button.co{
-	text-align:center;
-	color:white;
-	background-color:black;
-	width:1450px;
-    padding:13px 0px;
-	margin-top:15px;
-	margin-bottom:20px;
-	font-size:16px;
-	transition:.6s ease-in;
-	border-style:none;
-	font-weight:lighter;
+input[type="text"] {
+  width: 100%;
+  padding: 8px 0px;
 }
-button.co:hover{
-	color:black;
-	background-color:rgb(220,220,220);
+input[type="submit"] {
+  width: 35%;
+  color: white;
+  background-color: black;
+  border-style: none;
+  padding: 13px 0px;
+  transition: 0.5s ease;
 }
-footer{
-	margin:10px 25px;
+input[type="submit"]:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
-input[type="text"]{
-	width:1450px;
-	padding:8px 0px;
+.fotimg img {
+  width: 100%;
+  margin-bottom: -5px;
 }
-input[type="submit"]{
-	width:220px;
-	color:white;
-	background-color:black;
-	border-style:none;
-	padding:13px 0px;
-	transition:.5s ease;
-	
+hr {
+  width: 13%;
+  transition: all 1s ease-in;
+  margin-bottom: 0.3rem;
 }
-input[type="submit"]:hover{
-	background-color:rgb(150,150,150);
-	color:black;
+.head + hr:hover {
+  width: 100%;
+}
+/* footer */
+footer {
+  bottom: 0;
+}
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  text-align: left;
+  padding: 45px 40px;
+  font: bold 14px sans-serif;
+  margin-top: 0;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font: normal 36px initial;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
+  color: #5383d3;
+}
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-center i {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  transition: all 0.2s ease-in;
+  margin-bottom: 0.5rem;
+  padding-top: 7px;
+}
+.footer-distributed .footer-center i:hover {
+  background-color: white;
+  color: black;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center p span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: #5383d3;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+
+  border-radius: 2px;
+
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+  transition: all 0.2s ease-in;
+  margin-right: 3px;
+  margin-bottom: 5px;
+  background-color: black;
+  color: white;
+}
+
+.footer-distributed .footer-icons a:hover {
+  background-color: white;
+  color: black;
+}
+@media only all and (min-width: 769px) {
+  html {
+    font-size: 20px;
+  }
+  div.header {
+    height: 70vh;
+  }
+  div.fi,
+  div.se,
+  div.th,
+  div.fo {
+    margin: 3% 2% 3% 2%;
+    width: 45%;
+    float: left;
+  }
+  .hname {
+    font-size: 1.5rem;
+  }
+  .about,
+  hr {
+    margin: 0 2%;
+  }
+  .teams {
+    width: 21%;
+    margin-left: 3%;
+    float: left;
+    clear: right;
+  }
+  .imgd {
+    width: 100%;
+    height: 40vh;
+  }
+  .boss {
+    vertical-align: center;
+  }
+  .def {
+    transform: translate(-10px, 0);
+  }
+  .form {
+    text-align: left;
+    clear: left;
+    margin: 0 3%;
+  }
+  .tx,
+  .tx form {
+    margin: 0;
+  }
+  input[type="submit"] {
+    width: 20%;
+  }
+  .fotimg img {
+    height: 70vh;
+  }
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: inline-block;
+    width: 30%;
+    margin-left: 3%;
+    vertical-align: top;
+  }
+  hr {
+    width: 4.5%;
+  }
 }
