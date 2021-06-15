@@ -103,12 +103,12 @@ div.fo {
 
 /* after about content */
 .teams {
-  display: relative;
-    width: 100vw;
+  width: 100%;
 }
 img.imgd {
   margin-bottom: 15px;
-  
+  width: 60vw;
+  height: 40vh;
 }
 span.pn {
   font-size: 2rem;
